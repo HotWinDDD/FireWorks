@@ -162,11 +162,9 @@ class Main: JavaPlugin(), Listener {
         world.time = 14000
 
         async {
-            title(Title("§eNekoCraft §7- §e除夕之夜", "§bQQ群: §a7923309", 10, 40, 10))
+            title(Title("§cCube§fX §7- §e除夕之夜" 10, 40, 10))
             Thread.sleep(3000)
-            title(Title("§bPresent By: §eShirasawa", "§a即将为您呈现...", 10, 40, 10))
-            Thread.sleep(3000)
-            title(Title("§e注意事项", "§b节目开始后请不要随意走动", 10, 40, 10))
+            title(Title("§c注意事项", "§b节目开始后请不要随意走动", 10, 40, 10))
             Thread.sleep(3000)
             title(Title("§a让我们一起倒数...", "", 10, 40, 10))
             Thread.sleep(3000)
